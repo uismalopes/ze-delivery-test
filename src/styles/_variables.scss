@@ -1,0 +1,42 @@
+$breakpoints: (
+  na: 0px,
+  xs: 320px,
+  sm: 600px,
+  md: 900px,
+  lg: 1200px,
+  xl: 1800px,
+);
+
+$container-sizes: (
+  sm: map-get($breakpoints, sm),
+  md: map-get($breakpoints, md),
+  lg: map-get($breakpoints, lg),
+  xl: map-get($breakpoints, xl)
+);
+
+$justify-content: (
+  between: space-between,
+  center: center,
+  end: end
+);
+
+$align-items: (
+  end: flex-end,
+  start: flex-start,
+  center: center,
+);
+
+$aligns: (center, left, right);
+
+$display: (block, none, flex, grid);
+
+$display-font-sizes: (
+  1: 4.5rem,
+  2: 4rem,
+  3: 3.5rem,
+  4: 3rem,
+  5: 2.5rem,
+  6: 2rem
+);
+
+$width-header: 592px;

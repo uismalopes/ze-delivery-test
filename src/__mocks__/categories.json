@@ -1,0 +1,25 @@
+[{
+  "__typename": "CategorySchema",
+  "id": "94",
+  "title": "Cervejas"
+}, {
+  "__typename": "CategorySchema",
+  "id": "95",
+  "title": "Destilados"
+}, {
+  "__typename": "CategorySchema",
+  "id": "92",
+  "title": "Vinhos"
+}, {
+  "__typename": "CategorySchema",
+  "id": "96",
+  "title": "Sem álcool"
+}, {
+  "__typename": "CategorySchema",
+  "id": "97",
+  "title": "Petiscos"
+}, {
+  "__typename": "CategorySchema",
+  "id": "98",
+  "title": "Outros"
+}]

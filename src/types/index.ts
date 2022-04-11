@@ -1,0 +1,1 @@
+export { IMapBoxResponseSearch } from "./IMapBoxResponseSearch";

@@ -1,0 +1,687 @@
+{
+  "92": {
+    "title": "Vinhos",
+    "data": [
+      {
+        "__typename": "ProductSchema",
+        "id": "9537",
+        "title": "Vinho Chileno Tinto Seco Merlot Garrafa 750ml",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009537_f9ba8b41-3e7d-4d68-b8bd-eec7d1d63d5d.jpg",
+        "price": 54.9,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "92",
+          "title": "Vinhos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9543",
+        "title": "Vinho Chileno Branco Chardonnay 750ml",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009543_adf61e69-b97e-4938-a659-b4fdb30d428b.jpg",
+        "price": 54.9,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "92",
+          "title": "Vinhos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9540",
+        "title": "Vinho Chileno Tinto Seco Reservado Carmenere Garrafa 750ml",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/products/9174.png",
+        "price": 54.9,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "92",
+          "title": "Vinhos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9541",
+        "title": "Vinho Chileno Tinto Seco Reservado Cabernet Sauvignon 750ml",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/products/9175.png",
+        "price": 54.9,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "92",
+          "title": "Vinhos"
+        }
+      }
+    ]
+  },
+  "94": {
+    "title": "Cervejas",
+    "data": [
+      {
+        "__typename": "ProductSchema",
+        "id": "8868",
+        "title": "Skol 269ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/8868_205f958d-2e51-48a3-b4d5-a2998765571a.jpg",
+        "price": 2.09,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8869",
+        "title": "Skol 269ml - Pack com 15 Unidades",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/products/8503.png",
+        "price": 31.35,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8880",
+        "title": "Brahma 350ml - Pack com 12 Unidades",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/8880_47d948bc-eaa5-44b2-a443-d9bbb07bc43e.jpg",
+        "price": 27.48,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8946",
+        "title": "Budweiser 350ml - Caixa com 12 Unidades",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008946_df1f1e8c-3207-48fe-9d75-6894b11030c3.jpg",
+        "price": 44.28,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8945",
+        "title": "Budweiser 350ml  - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008945_0c8915c4-f78e-4c00-927d-6cd045dd1203.jpg",
+        "price": 3.69,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8948",
+        "title": "Stella Artois 275ml - Pack com 6 unidades",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008948_c04c82d7-6c1d-4f59-9e12-a33b5fecee47.jpg",
+        "price": 22.74,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8947",
+        "title": "Stella Artois 275ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008947_7e57513b-d574-4e91-919c-446c7b1c84fb.jpg",
+        "price": 3.79,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8942",
+        "title": "Budweiser 343ml - Pack com 6 Unidades",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008942_0078bead-7ee6-44ea-b875-a758010383e4.jpg",
+        "price": 17.94,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8941",
+        "title": "Budweiser 343ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008941_0829bcb0-0596-453a-b6bc-b55fc89a4280.jpg",
+        "price": 2.99,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8954",
+        "title": "Corona Extra 355ml - Pack com 6 unidades",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008954_642d8655-a9e5-423d-bcd3-eb4fddd0a6e7.jpg",
+        "price": 35.94,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8953",
+        "title": "Corona Extra 355ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008953_4dbfb5ac-3c8b-4a1d-ad5c-c3ab66c98554.jpg",
+        "price": 5.99,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8907",
+        "title": "Antarctica Original 300ml - Caixa com 12 Unidades",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008907_f085f483-5ab6-4ca4-96b2-f73f23644596.jpg",
+        "price": 35.88,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8879",
+        "title": "Brahma 350ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/8879_57e93ce2-f7d3-4544-a838-68095a04281c.jpg",
+        "price": 2.29,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8870",
+        "title": "Skol 350ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/8870_543a3afb-3076-4471-a13d-c7b107deb881.jpg",
+        "price": 15,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8906",
+        "title": "Antarctica Original 300ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008906_4db198be-3022-434c-accf-0a1f32708860.jpg",
+        "price": 2.99,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8909",
+        "title": "Serramalte 300ml - Caixa com 12 Unidades",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008909_12d5ab07-2b00-4047-970b-04e6423332e7.jpg",
+        "price": 37.68,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8908",
+        "title": "Serramalte 300ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008908_7884ccb2-f07c-40f7-afdf-50ba9b3cd06f.jpg",
+        "price": 3.14,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8966",
+        "title": "Skol Beats Senses 269ml - Pack com 8 Unidades",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008966_27938e9b-945d-46a6-b72f-df7e724ac280.jpg",
+        "price": 36.8,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8965",
+        "title": "Skol Beats Senses 269ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008965_e6db7d9c-be12-46fe-a962-27a4e318405b.jpg",
+        "price": 4.6,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9071",
+        "title": "Norteña 960ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009071_059728c8-3a65-4c45-9fe1-087016d10d0e.jpg",
+        "price": 15.99,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9072",
+        "title": "Quilmes 970ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009072_c46cdca8-e8c0-471a-8f9c-0a426c3be111.jpg",
+        "price": 15.99,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8962",
+        "title": "Skol Beats Secret 269ml - Caixa com 8 unidades",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008962_943a1e7f-0038-40eb-b689-9c536610872e.jpg",
+        "price": 36.8,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9060",
+        "title": "Hoegaarden 300ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009060_21945bef-9c45-426a-bd75-82c2445a6ee3.jpg",
+        "price": 8.2,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8970",
+        "title": "Skol Beats Spirit 269ml - Pack com 8 Unidades",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008970_d44e8bd4-e089-4687-adc6-11cdb89e5306.jpg",
+        "price": 36.8,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8969",
+        "title": "Skol Beats Spirit 269ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008969_70427375-d82b-47dc-89ce-8c3ff5f837b4.jpg",
+        "price": 4.6,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9056",
+        "title": "Leffe Blonde 330ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009056_0f1edb1e-b2ee-48af-a4fa-145ca1bd61e0.jpg",
+        "price": 14.9,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "94",
+          "title": "Cervejas"
+        }
+      }
+    ]
+  },
+  "96": {
+    "title": "Sem álcool",
+    "data": [
+      {
+        "__typename": "ProductSchema",
+        "id": "9250",
+        "title": "Guaraná Antarctica 2L - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009250_e61f334b-b120-4985-b4d9-083c2c4ad15b.jpg",
+        "price": 6.99,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "96",
+          "title": "Não Alcóolicos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9256",
+        "title": "Guaraná Antarctica Zero 2L - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009256_bf628721-1eab-4ee4-95dc-7969cc965005.jpg",
+        "price": 6.99,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "96",
+          "title": "Não Alcóolicos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9213",
+        "title": "Guaraná 350ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009213_a853c411-ec4b-476f-96e0-ee7b88870559.jpg",
+        "price": 2.49,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "96",
+          "title": "Não Alcóolicos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9214",
+        "title": "Guaraná 350ml - Pack com 12 Unidades",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009214_9e6b60c7-b7f2-47d0-aecd-bb702a9a07b0.jpg",
+        "price": 29.88,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "96",
+          "title": "Não Alcóolicos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9325",
+        "title": "H2OH Limão 500ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009325_b930d64f-3a8f-4bdb-9cd8-2ef06aa830a2.jpg",
+        "price": 3.19,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "96",
+          "title": "Não Alcóolicos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9232",
+        "title": "Guaraná Zero 350ml - Pack com 12 Unidades",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009232_fd73f2c1-8398-4f66-bea7-22fa6927d7da.jpg",
+        "price": 29.88,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "96",
+          "title": "Não Alcóolicos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9231",
+        "title": "Guaraná Zero 350ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009231_4f387d0e-7cab-423c-8e73-de6d45f54c8b.jpg",
+        "price": 2.49,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "96",
+          "title": "Não Alcóolicos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9318",
+        "title": "Gatorade Uva 500ml - Unidade",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009318_d9144cb2-39f7-4e07-b5f5-4c18ff4ae8ed.jpg",
+        "price": 4.49,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "96",
+          "title": "Não Alcóolicos"
+        }
+      }
+    ]
+  },
+  "97": {
+    "title": "Petiscos",
+    "data": [
+      {
+        "__typename": "ProductSchema",
+        "id": "9457",
+        "title": "Torcida Pimenta Mexicana",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009457_afca9fbf-301b-4629-a68c-c2222efa9d01.jpg",
+        "price": 5.5,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "97",
+          "title": "Para matar a fome"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9407",
+        "title": "Doritos Queijo Nacho 55g",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009407_91c56ba0-0fe4-4ee5-a3e7-938ce2f13367.jpg",
+        "price": 7.5,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "97",
+          "title": "Para matar a fome"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9414",
+        "title": "Ruffles Original 57g",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009414_91d2e756-8b3b-4363-ba91-2c8c8b82eeef.jpg",
+        "price": 7.5,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "97",
+          "title": "Para matar a fome"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9449",
+        "title": "Ovinhos de Amendoim Elma Chips",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009449_edc8f58d-8943-4c17-8b94-10dc60608b09.jpg",
+        "price": 9.9,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "97",
+          "title": "Para matar a fome"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9428",
+        "title": "Pringles Original",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009428_adc57e3c-1279-4498-82dc-ce26cadb8dc6.jpg",
+        "price": 29.9,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "97",
+          "title": "Para matar a fome"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9456",
+        "title": "Torcida Cebola",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009456_ea34eda0-71fe-4d41-9c8c-460475206a3e.jpg",
+        "price": 5.5,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "97",
+          "title": "Para matar a fome"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9468",
+        "title": "Pipoca Sabor Natural - 100g",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009468_0eef7058-71b7-4c31-b8a3-473d62f0f710.jpg",
+        "price": 5.5,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "97",
+          "title": "Para matar a fome"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9470",
+        "title": "Pipoca Sabor Manteiga - 100g",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009470_6aeaf4f0-4a58-407c-b651-2f779efd582a.jpg",
+        "price": 5.5,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "97",
+          "title": "Para matar a fome"
+        }
+      }
+    ]
+  },
+  "98": {
+    "title": "Outros",
+    "data": [
+      {
+        "__typename": "ProductSchema",
+        "id": "9405",
+        "title": "Camisinha Olla 3 un.",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009405_43a71fd3-7ba5-4e26-b84c-e3088e663637.jpg",
+        "price": 11.9,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "98",
+          "title": "Para festas & churrascos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9359",
+        "title": "Copo Plástico 300ml",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009359_ba6b7b62-da76-4a8c-9618-c41ae32403bd.jpg",
+        "price": 11.9,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "98",
+          "title": "Para festas & churrascos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8790",
+        "title": "Halls Extra Forte",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/8790_5373dae3-0c77-4d63-90aa-c1d4204b11a0.jpg",
+        "price": 4.5,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "98",
+          "title": "Para festas & churrascos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9339",
+        "title": "Saco de Gelo em Cubos - 2kg",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009339_d3162348-c1f7-4dc0-95d0-0bca8e14ab06.jpg",
+        "price": 9.9,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "98",
+          "title": "Para festas & churrascos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9350",
+        "title": "Carvão Vegetal 2,5kg",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009350_98d837ac-e98d-49a4-8e5c-b01cda3f6960.jpg",
+        "price": 23.9,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "98",
+          "title": "Para festas & churrascos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8795",
+        "title": "Halls Melancia",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008795_64d5ebab-e133-4c1d-bb3c-e87a1b7c6a04.jpg",
+        "price": 4.5,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "98",
+          "title": "Para festas & churrascos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9400",
+        "title": "Baralho Copag 139 Azul ou Vermelho",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009400_ccab5d33-c0d0-4488-a608-7130beaad63c.jpg",
+        "price": 18.9,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "98",
+          "title": "Para festas & churrascos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "9402",
+        "title": "Isqueiro Bic Pequeno",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009402_5641a94f-2165-44e3-96f5-1d76e627c898.jpg",
+        "price": 6.5,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "98",
+          "title": "Para festas & churrascos"
+        }
+      },
+      {
+        "__typename": "ProductSchema",
+        "id": "8794",
+        "title": "Halls Cereja",
+        "image": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008794_99b661be-1619-4deb-a938-857456f4189a.jpg",
+        "price": 4.5,
+        "category": {
+          "__typename": "CategorySchema",
+          "id": "98",
+          "title": "Para festas & churrascos"
+        }
+      }
+    ]
+  }
+}

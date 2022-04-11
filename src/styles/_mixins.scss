@@ -1,0 +1,74 @@
+@mixin min($bp, $max: "null", $device: "screen") {
+  @if $max == "null" {
+    @media only #{$device} and (min-width: #{$bp}) {
+      @content;
+    }
+  } @else {
+    @media only #{$device} and (min-width: #{$bp}) and (max-width: #{$max}) {
+      @content;
+    }
+  }
+}
+
+@mixin transition($val) {
+  transition: $val;
+  -webkit-transition: $val;
+  -ms-transition: $val;
+  -moz-transition: $val;
+}
+
+@mixin transform($val) {
+  transform: $val;
+  -webkit-transform: $val;
+  -ms-transform: $val;
+  -moz-transform: $val;
+}
+
+@mixin generateSizes($prefix, $property) {
+  $sizes: (0, 0.5, 1, 1.5, 2, 2.5);
+  $spacing: 1rem;
+  @for $i from 1 through length($sizes) {
+    $size: nth($sizes, $i);
+    .#{$prefix}-#{$i - 1} {
+      @if $prefix == px or $prefix == mx {
+        #{$property}: {
+          left: $spacing * $size;
+          right: $spacing * $size;
+        }
+      } @else if $prefix == py or $prefix == my {
+        #{$property}: {
+          top: $spacing * $size;
+          bottom: $spacing * $size;
+        }
+      } @else {
+        #{$property}: $spacing * $size;
+      }
+    }
+  }
+}
+
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }  
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }  
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};      
+}

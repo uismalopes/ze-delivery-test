@@ -1,0 +1,136 @@
+.container {
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  &:not(.is-fluid) {
+    margin: 0 auto;
+
+    @each $bp, $container-size in $container-sizes {
+      @include min(#{bp(#{$bp})}) {
+        width: 100%;
+        max-width: container(#{$bp});
+      }
+    }
+  }
+}
+
+@each $bp, $container-size in $container-sizes {
+  .container-#{$bp} {
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 100%;
+
+    $i: index($container-sizes, $bp $container-size);
+
+    @for $j from $i through length($container-sizes) {
+      @include min(#{bp(nth(nth($container-sizes, $j), 1))}) {
+        max-width: container(#{nth(nth($container-sizes, $j), 1)});
+      }
+    }
+  }
+}
+
+@each $key, $align in $justify-content {
+  .justify-content-#{$key} {
+    justify-content: $align;
+  }
+}
+
+@each $key, $align in $align-items {
+  .align-items-#{$key} {
+    align-items: $align;
+  }
+}
+
+@each $value in $display {
+  .d-#{$value} {
+    display: $value;
+  }
+}
+
+@each $value in $aligns {
+  .text-#{$value}{
+    text-align: $value;
+  }
+}
+
+@each $key, $value in $display-font-sizes {
+  h#{$key}, .h#{$key} {
+    font-size: $value;
+  }
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-title {
+  @extend .h6;
+  font-weight: 400;
+}
+
+.btn {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+}
+
+$rules: (
+  ml: margin-left,
+  mt: margin-top,
+  mb: margin-bottom,
+  mr: margin-right,
+  m: margin,
+  mx: margin,
+  my: margin,
+  p: padding,
+  pt: padding-top,
+  pb: padding-bottom,
+  pl: padding-left,
+  pr: padding-right,
+  px: padding,
+  py: padding
+);
+
+@each $item in $rules {
+  @include generateSizes(nth($item, 1), nth($item, 2));
+}
+
+.form-control {
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 100;
+  font-weight: lighter;
+  border: 1px solid #999;
+  height: 48px;
+  width: 100%;
+  outline: none;
+  padding: 1px 20px;
+}
+
+input {
+  &.invalid {
+    border-color: $danger !important;
+  }
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.fadeInRight {
+  @include animation('fadeInRight 350ms both');  
+}
+
+@include keyframes(fadeInRight) {
+  0% {
+    opacity: 0;
+    @include transform(translate3d(100%, 0, 0));
+  }
+  100% {
+    opacity: 1;
+    @include transform(none);
+  }
+}

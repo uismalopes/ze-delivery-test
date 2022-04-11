@@ -1,0 +1,24 @@
+$primary: #ffcc00;
+$dark-primary: #f39000;
+$secondary: #333;
+$light-secondary: #999;
+$white: #fff;
+$danger: #f54337;
+
+$listColors: (
+  primary: $primary,
+  dark-primary: $dark-primary,
+  secondary: $secondary,
+  light-secondary: $light-secondary,
+  white: $white,
+  danger: $danger
+);
+
+@each $key, $value in $listColors {
+  .text-#{$key} {
+    color: $value;
+  }
+  .bg-#{$key} {
+    background-color: $value;
+  }
+}
